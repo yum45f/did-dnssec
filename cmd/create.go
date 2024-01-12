@@ -79,7 +79,7 @@ func handleCreate(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
-	doc, err := core.NewDocumentTreeFromJSON(bytes)
+	doc, err := core.CreateFromJSON(bytes)
 	if err != nil {
 		return err
 	}

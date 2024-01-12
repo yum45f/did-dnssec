@@ -20,5 +20,11 @@
       "type": "AtprotoPersonalDataServer",
       "serviceEndpoint": "https://inkcap.us-east.host.bsky.network"
     }
-  ]
+  ],
+  "additionalField": {
+    "name": "joe",
+    "description": 123,
+    "booleancheck": true,
+    "123": "number as key"
+  }
 }
